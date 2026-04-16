@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ParkEase – Campus Parking Slot Booking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav class="navbar">
+  <div class="nav-logo">
+    <span class="logo-icon">🅿</span>
+    <span class="logo-text">Park<em>Ease</em></span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#slots">Live Slots</a></li>
+    <li><a href="#team">Team</a></li>
+  </ul>
+  <a href="#book" class="nav-cta">Book Now</a>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero" id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🎓 Campus Smart Parking System</div>
+    <h1 class="hero-title">
+      No More<br>
+      <span class="hero-accent">Circling</span><br>
+      the Lot.
+    </h1>
+    <p class="hero-sub">Reserve your campus parking slot in under 30 seconds. Real-time availability, QR entry, and zero hassle.</p>
+    <div class="hero-btns">
+      <a href="#book" class="btn-primary">Reserve a Slot →</a>
+      <a href="#how" class="btn-ghost">See How It Works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">240+</span><span class="stat-label">Parking Slots</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">1.2k</span><span class="stat-label">Daily Users</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num">99%</span><span class="stat-label">Uptime</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="parking-map">
+      <div class="map-label">ZONE A – Live View</div>
+      <div class="slots-grid">
+        <div class="slot taken"><span>A1</span></div>
+        <div class="slot taken"><span>A2</span></div>
+        <div class="slot free pulse"><span>A3</span></div>
+        <div class="slot free pulse"><span>A4</span></div>
+        <div class="slot taken"><span>A5</span></div>
+        <div class="slot free pulse"><span>A6</span></div>
+        <div class="slot booked"><span>A7</span></div>
+        <div class="slot taken"><span>A8</span></div>
+        <div class="slot free pulse"><span>A9</span></div>
+        <div class="slot taken"><span>A10</span></div>
+        <div class="slot booked"><span>A11</span></div>
+        <div class="slot free pulse"><span>A12</span></div>
+      </div>
+      <div class="map-legend">
+        <span class="leg taken-leg">● Occupied</span>
+        <span class="leg free-leg">● Available</span>
+        <span class="leg booked-leg">● Reserved</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FEATURES ══════════════ -->
+<section class="features" id="features">
+  <div class="section-tag">What We Offer</div>
+  <h2 class="section-title">Everything You Need,<br>Nothing You Don't.</h2>
+  <div class="features-grid">
+    <div class="feat-card">
+      <div class="feat-icon">📍</div>
+      <h3>Real-Time Slot Tracking</h3>
+      <p>Live updates on available, occupied, and reserved slots across all campus zones using sensor integration.</p>
+    </div>
+    <div class="feat-card feat-highlight">
+      <div class="feat-icon">📱</div>
+      <h3>Instant Booking</h3>
+      <p>Book a slot from your phone or laptop in seconds. Choose your zone, time, and vehicle type seamlessly.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">🔐</div>
+      <h3>QR Code Entry</h3>
+      <p>A unique QR code is generated per booking. Scan at the gate for frictionless, contactless entry and exit.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">🔔</div>
+      <h3>Smart Notifications</h3>
+      <p>Get alerts when your booking is confirmed, when you're 10 minutes away from expiry, and more.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">📊</div>
+      <h3>Admin Dashboard</h3>
+      <p>Campus authorities get full analytics: peak hours, zone utilization, violation tracking, and reports.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon">♿</div>
+      <h3>Priority Slots</h3>
+      <p>Dedicated zones for faculty, differently-abled users, and electric vehicles with access controls.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ HOW IT WORKS ══════════════ -->
+<section class="how" id="how">
+  <div class="section-tag">Process</div>
+  <h2 class="section-title">Four Steps to<br>Stress-Free Parking.</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-content">
+        <h3>Login with Campus ID</h3>
+        <p>Authenticate with your university credentials. Your role (student/faculty/staff) determines available zones.</p>
+      </div>
+    </div>
+    <div class="step-arrow">→</div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-content">
+        <h3>Choose Slot & Time</h3>
+        <p>View the live map, pick an available slot in your preferred zone, and select your arrival–departure window.</p>
+      </div>
+    </div>
+    <div class="step-arrow">→</div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-content">
+        <h3>Confirm & Get QR</h3>
+        <p>Confirm your booking. A unique QR code lands in your email and app instantly.</p>
+      </div>
+    </div>
+    <div class="step-arrow">→</div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-content">
+        <h3>Park & Exit Freely</h3>
+        <p>Scan at the barrier on arrival and exit. The slot is released automatically when you leave.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ LIVE SLOT BOOKING UI ══════════════ -->
+<section class="book-section" id="book">
+  <div class="section-tag">Book Now</div>
+  <h2 class="section-title">Reserve Your Slot.</h2>
+  <div class="book-container">
+    <div class="book-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="e.g. Rahul Sharma" />
+        </div>
+        <div class="form-group">
+          <label>Campus ID</label>
+          <input type="text" placeholder="e.g. CS2021034" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Vehicle Number</label>
+          <input type="text" placeholder="e.g. MH12 AB 1234" />
+        </div>
+        <div class="form-group">
+          <label>Vehicle Type</label>
+          <select>
+            <option>🚗 Car</option>
+            <option>🛵 Bike / Scooter</option>
+            <option>⚡ Electric Vehicle</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Parking Zone</label>
+          <select>
+            <option>Zone A – Main Gate</option>
+            <option>Zone B – Library Block</option>
+            <option>Zone C – Hostel Area</option>
+            <option>Zone D – Sports Complex</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Arrival Time</label>
+          <input type="time" />
+        </div>
+        <div class="form-group">
+          <label>Departure Time</label>
+          <input type="time" />
+        </div>
+      </div>
+      <button class="btn-primary full-btn" onclick="handleBooking()">Confirm Booking & Get QR →</button>
+    </div>
+    <div class="book-info">
+      <div class="zone-card">
+        <h4>Zone Availability</h4>
+        <div class="zone-bar-item">
+          <span>Zone A</span>
+          <div class="zone-bar"><div class="zone-fill" style="width:30%"></div></div>
+          <span class="zone-count">18/60</span>
+        </div>
+        <div class="zone-bar-item">
+          <span>Zone B</span>
+          <div class="zone-bar"><div class="zone-fill" style="width:65%"></div></div>
+          <span class="zone-count">39/60</span>
+        </div>
+        <div class="zone-bar-item">
+          <span>Zone C</span>
+          <div class="zone-bar"><div class="zone-fill full" style="width:92%"></div></div>
+          <span class="zone-count">55/60</span>
+        </div>
+        <div class="zone-bar-item">
+          <span>Zone D</span>
+          <div class="zone-bar"><div class="zone-fill" style="width:20%"></div></div>
+          <span class="zone-count">12/60</span>
+        </div>
+      </div>
+      <div class="rules-card">
+        <h4>Booking Rules</h4>
+        <ul>
+          <li>✅ Max booking duration: 8 hours</li>
+          <li>✅ Cancel up to 30 min before</li>
+          <li>✅ One active booking per user</li>
+          <li>⚠️ Overstay attracts penalty</li>
+          <li>⚠️ No booking for national holidays</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ LIVE SLOTS PANEL ══════════════ -->
+<section class="live-slots" id="slots">
+  <div class="section-tag">Real-Time</div>
+  <h2 class="section-title">Live Campus Parking Map.</h2>
+  <div class="zone-tabs">
+    <button class="zone-tab active" onclick="switchZone(this,'zone-a')">Zone A</button>
+    <button class="zone-tab" onclick="switchZone(this,'zone-b')">Zone B</button>
+    <button class="zone-tab" onclick="switchZone(this,'zone-c')">Zone C</button>
+    <button class="zone-tab" onclick="switchZone(this,'zone-d')">Zone D</button>
+  </div>
+  <div id="zone-a" class="zone-panel active-panel">
+    <div class="big-slots-grid" id="slotGrid"></div>
+  </div>
+  <div id="zone-b" class="zone-panel">
+    <p class="zone-msg">Zone B – 39 of 60 slots occupied. Select above.</p>
+  </div>
+  <div id="zone-c" class="zone-panel">
+    <p class="zone-msg">Zone C – Nearly full! 55 of 60 slots occupied.</p>
+  </div>
+  <div id="zone-d" class="zone-panel">
+    <p class="zone-msg">Zone D – 12 of 60 slots occupied. Plenty of space!</p>
+  </div>
+</section>
+
+<!-- ══════════════ TEAM ══════════════ -->
+<section class="team" id="team">
+  <div class="section-tag">The Team</div>
+  <h2 class="section-title">Built By.</h2>
+  <div class="team-grid">
+    <div class="team-card">
+      <div class="avatar">👩‍💻</div>
+      <h4>Project Lead</h4>
+      <p>System Design & Architecture</p>
+    </div>
+    <div class="team-card">
+      <div class="avatar">👨‍💻</div>
+      <h4>Backend Developer</h4>
+      <p>Database & API Design</p>
+    </div>
+    <div class="team-card">
+      <div class="avatar">👩‍🎨</div>
+      <h4>Frontend Developer</h4>
+      <p>UI/UX & Prototyping</p>
+    </div>
+    <div class="team-card">
+      <div class="avatar">👨‍🔬</div>
+      <h4>QA & Testing</h4>
+      <p>Test Plans & Documentation</p>
+    </div>
+  </div>
+  <div class="project-meta">
+    <p>📚 Subject: <strong>Software Project Management</strong> &nbsp;|&nbsp; 📍 Topic: <strong>Parking Slot Booking for Campus</strong></p>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <div class="footer-logo">🅿 Park<em>Ease</em></div>
+  <p>Campus Smart Parking System · Software Project Management · 2025</p>
+</footer>
+
+<!-- ══════════════ BOOKING MODAL ══════════════ -->
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    <div class="modal-check">✅</div>
+    <h3>Booking Confirmed!</h3>
+    <p>Your QR code has been sent to your registered email.</p>
+    <div class="qr-placeholder">
+      <div class="qr-inner">QR</div>
+    </div>
+    <p class="booking-id">Booking ID: <strong>#PKE-20240416-A3</strong></p>
+    <button class="btn-primary" onclick="closeModal()">Done</button>
+  </div>
+</div>
+
+<script>
+  // Generate slot grid
+  const grid = document.getElementById('slotGrid');
+  const statusArr = ['taken','taken','free','free','taken','free','booked','taken','free','taken',
+                     'booked','free','taken','free','free','taken','taken','free','free','taken',
+                     'free','taken','booked','free','taken','taken','free','free','taken','free'];
+  statusArr.forEach((s, i) => {
+    const div = document.createElement('div');
+    div.className = `big-slot ${s}`;
+    div.innerHTML = `<span>A${i+1}</span><small>${s === 'free' ? 'Available' : s === 'taken' ? 'Occupied' : 'Reserved'}</small>`;
+    if (s === 'free') div.onclick = () => selectSlot(div, `A${i+1}`);
+    grid.appendChild(div);
+  });
+
+  function selectSlot(el, name) {
+    document.querySelectorAll('.big-slot.selected').forEach(x => x.classList.remove('selected'));
+    el.classList.add('selected');
+  }
+
+  function switchZone(btn, zoneId) {
+    document.querySelectorAll('.zone-tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.zone-panel').forEach(p => p.classList.remove('active-panel'));
+    btn.classList.add('active');
+    document.getElementById(zoneId).classList.add('active-panel');
+  }
+
+  function handleBooking() {
+    document.getElementById('modal').classList.remove('hidden');
+  }
+  function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+  }
+
+  // Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 40);
+  });
+</script>
+</body>
+</html>
