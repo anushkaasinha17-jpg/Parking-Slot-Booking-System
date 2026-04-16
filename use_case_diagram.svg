@@ -1,0 +1,68 @@
+<svg viewBox="0 0 860 540" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="860" height="540" fill="#0b0f1a"/>
+  <!-- Title -->
+  <text x="430" y="38" text-anchor="middle" fill="#f5c842" font-size="18" font-weight="700">Use Case Diagram – Campus Parking Slot Booking</text>
+
+  <!-- System boundary -->
+  <rect x="180" y="60" width="520" height="440" rx="14" fill="none" stroke="#232f47" stroke-width="2"/>
+  <text x="440" y="82" text-anchor="middle" fill="#7a8fad" font-size="12">«system» ParkEase</text>
+
+  <!-- Actors -->
+  <!-- Student -->
+  <circle cx="60" cy="190" r="22" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="60" y1="212" x2="60" y2="265" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="30" y1="235" x2="90" y2="235" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="60" y1="265" x2="38" y2="295" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="60" y1="265" x2="82" y2="295" stroke="#3b82f6" stroke-width="2"/>
+  <text x="60" y="315" text-anchor="middle" fill="#3b82f6" font-size="13" font-weight="600">Student/Faculty</text>
+
+  <!-- Admin -->
+  <circle cx="800" cy="190" r="22" fill="none" stroke="#f97316" stroke-width="2"/>
+  <line x1="800" y1="212" x2="800" y2="265" stroke="#f97316" stroke-width="2"/>
+  <line x1="770" y1="235" x2="830" y2="235" stroke="#f97316" stroke-width="2"/>
+  <line x1="800" y1="265" x2="778" y2="295" stroke="#f97316" stroke-width="2"/>
+  <line x1="800" y1="265" x2="822" y2="295" stroke="#f97316" stroke-width="2"/>
+  <text x="800" y="315" text-anchor="middle" fill="#f97316" font-size="13" font-weight="600">Admin</text>
+
+  <!-- Gate System -->
+  <circle cx="60" cy="420" r="22" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <line x1="60" y1="442" x2="60" y2="495" stroke="#22c55e" stroke-width="2"/>
+  <line x1="30" y1="465" x2="90" y2="465" stroke="#22c55e" stroke-width="2"/>
+  <line x1="60" y1="495" x2="38" y2="525" stroke="#22c55e" stroke-width="2"/>
+  <line x1="60" y1="495" x2="82" y2="525" stroke="#22c55e" stroke-width="2"/>
+  <text x="60" y="535" text-anchor="middle" fill="#22c55e" font-size="12" font-weight="600">Gate System</text>
+
+  <!-- Use Cases -->
+  <ellipse cx="370" cy="120" rx="110" ry="28" fill="#131929" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="370" y="125" text-anchor="middle" fill="#e8edf5" font-size="12">Login with Campus ID</text>
+
+  <ellipse cx="570" cy="120" rx="110" ry="28" fill="#131929" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="570" y="125" text-anchor="middle" fill="#e8edf5" font-size="12">View Available Slots</text>
+
+  <ellipse cx="350" cy="210" rx="110" ry="28" fill="#131929" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350" y="215" text-anchor="middle" fill="#e8edf5" font-size="12">Book a Slot</text>
+
+  <ellipse cx="580" cy="210" rx="110" ry="28" fill="#131929" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="580" y="215" text-anchor="middle" fill="#e8edf5" font-size="12">Receive QR Code</text>
+
+  <ellipse cx="430" cy="300" rx="110" ry="28" fill="#131929" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="430" y="305" text-anchor="middle" fill="#e8edf5" font-size="12">Scan QR at Gate</text>
+
+  <ellipse cx="360" cy="390" rx="110" ry="28" fill="#131929" stroke="#f97316" stroke-width="1.5"/>
+  <text x="360" y="395" text-anchor="middle" fill="#e8edf5" font-size="12">Cancel Booking</text>
+
+  <ellipse cx="580" cy="390" rx="110" ry="28" fill="#131929" stroke="#f97316" stroke-width="1.5"/>
+  <text x="580" y="395" text-anchor="middle" fill="#e8edf5" font-size="12">Manage All Slots</text>
+
+  <ellipse cx="580" cy="470" rx="110" ry="28" fill="#131929" stroke="#f97316" stroke-width="1.5"/>
+  <text x="580" y="475" text-anchor="middle" fill="#e8edf5" font-size="12">View Reports/Analytics</text>
+
+  <!-- Connections -->
+  <line x1="82" y1="185" x2="258" y2="120" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="82" y1="195" x2="240" y2="210" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="82" y1="200" x2="240" y2="300" stroke="#22c55e" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="82" y1="415" x2="320" y2="300" stroke="#22c55e" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="718" y1="185" x2="692" y2="210" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="718" y1="185" x2="692" y2="390" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="718" y1="190" x2="692" y2="470" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+</svg>
